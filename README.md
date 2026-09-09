@@ -1,14 +1,14 @@
 <!--
-  0xRech · GitHub Profile README
-  Public profile — modern, technical, focused.
+  0xRech · GitHub Profile README V2
+  Systems · Infrastructure · Security · Web · Automation
 -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:161B22,100:58A6FF&height=200&section=header&text=0xRech&fontSize=58&fontColor=F0F6FC&animation=fadeIn&fontAlignY=35&desc=Systems%20%E2%80%A2%20Infrastructure%20%E2%80%A2%20Security%20%E2%80%A2%20Web&descAlignY=57&descSize=16" alt="0xRech header" />
+<img width="100%" src="https://raw.githubusercontent.com/0xRech/0xRech/main/assets/banner.svg" alt="0xRech profile banner" />
 
 <a href="https://github.com/0xRech">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=850&color=58A6FF&center=true&vCenter=true&width=780&lines=Building+tools+that+explain+themselves.;Local-first.+Verifiable.+Practical.;Systems%2C+infrastructure%2C+security+%26+automation.;Turning+ideas+into+useful+software." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=850&color=58A6FF&center=true&vCenter=true&width=780&lines=Building+tools+that+explain+themselves.;Local-first.+Verifiable.+Practical.;Systems%2C+infrastructure%2C+security+%26+automation.;Turning+ideas+into+useful+software." alt="Typing animation" />
 </a>
 
 <br />
@@ -25,65 +25,89 @@
 
 ```text
 0xRech
-├─ focus
-│  ├─ systems & infrastructure
-│  ├─ security-minded tooling
-│  ├─ web platforms & automation
-│  └─ observable / verifiable software
-│
-├─ principles
-│  ├─ local-first where it makes sense
-│  ├─ readable over magical
-│  ├─ measured over assumed
-│  └─ secure by design, not by slogan
-│
-└─ status
-   └─ building → testing → breaking → improving
+├─ systems & infrastructure
+├─ security-minded tooling
+├─ web platforms & automation
+├─ observable / verifiable software
+└─ build → test → break → improve
 ```
 
-I like projects that sit close to **systems, infrastructure and data** — especially when they turn complicated workflows into something understandable, reproducible and useful.
+I build practical software around **systems, infrastructure, security and web products** — especially tools that make complicated workflows easier to understand, verify and automate.
+
+<details>
+<summary><b>🇩🇪 Deutsche Kurzfassung</b></summary>
+<br />
+
+Ich entwickle praktische Tools und Webprojekte rund um **IT-Infrastruktur, Automatisierung, Security und Systemverständnis**. Mein Fokus liegt auf Lösungen, die komplexe Abläufe transparenter, nachvollziehbarer und einfacher nutzbar machen.
+
+</details>
+
+---
+
+## ⚡ Currently building
+
+<div align="center">
+
+[![RGX](https://img.shields.io/badge/RGX-v0.5.0--alpha1-58A6FF?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/0xRech/.rgx)
+[![AliveSpec](https://img.shields.io/badge/AliveSpec-v0.2.0--alpha.1-2EA44F?style=for-the-badge&logo=go&logoColor=white)](https://github.com/0xRech/AliveSpec)
+[![TierMap](https://img.shields.io/badge/TierMap-Live-D2A8FF?style=for-the-badge&logo=openstreetmap&logoColor=white)](https://tiermap.de)
+[![Punktly](https://img.shields.io/badge/Punktly-Building-FFA657?style=for-the-badge&logo=qrcode&logoColor=white)](https://punktly.de)
+
+</div>
 
 ---
 
 ## 🚀 Featured projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 📦 [RGX](https://github.com/0xRech/.rgx)
+<a href="https://github.com/0xRech/.rgx">
+  <img width="48%" src="https://raw.githubusercontent.com/0xRech/0xRech/main/assets/cards/rgx.svg" alt="RGX project card" />
+</a>
+<a href="https://github.com/0xRech/AliveSpec">
+  <img width="48%" src="https://raw.githubusercontent.com/0xRech/0xRech/main/assets/cards/alivespec.svg" alt="AliveSpec project card" />
+</a>
 
-**Compact. Private. Verifiable.**
+<a href="https://tiermap.de">
+  <img width="48%" src="https://raw.githubusercontent.com/0xRech/0xRech/main/assets/cards/tiermap.svg" alt="TierMap project card" />
+</a>
+<a href="https://punktly.de">
+  <img width="48%" src="https://raw.githubusercontent.com/0xRech/0xRech/main/assets/cards/punktly.svg" alt="Punktly project card" />
+</a>
 
-An experimental `.rgx` archive format and Rust reference implementation with content-defined chunking, deduplication, Zstandard compression, BLAKE3 verification, authenticated encryption, recipient keys and detached signatures.
+</div>
 
-`Rust` `Zstandard` `BLAKE3` `X25519` `Ed25519` `XChaCha20-Poly1305`
+### Project focus
 
-[![RGX](https://img.shields.io/badge/Open-RGX-58A6FF?style=flat-square&logo=rust&logoColor=white)](https://github.com/0xRech/.rgx)
-[![RGX Website](https://img.shields.io/badge/Website-rgx.rech--group.de-2EA44F?style=flat-square&logo=googlechrome&logoColor=white)](https://rgx.rech-group.de)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 [AliveSpec](https://github.com/0xRech/AliveSpec)
-
-**Learn how your system works while it works.**
-
-AliveSpec observes known-good runtime behavior and turns it into readable operational contracts that can later be verified, compared and used in automation or CI/CD.
-
-`Go` `Linux` `eBPF` `bpftrace` `YAML` `Observability`
-
-[![AliveSpec](https://img.shields.io/badge/Open-AliveSpec-2EA44F?style=flat-square&logo=go&logoColor=white)](https://github.com/0xRech/AliveSpec)
-
-</td>
-</tr>
-</table>
+| Project | Focus | Status |
+|---|---|---|
+| **RGX** | Custom archive format, deduplication, compression, recipient encryption and signatures | Public alpha |
+| **AliveSpec** | Runtime learning, eBPF observation and executable operational contracts | Public alpha |
+| **TierMap** | Community platform for missing, found and sighted pets | Live |
+| **Punktly** | QR-based loyalty cards, points and rewards | In development |
 
 ---
 
-## 🌐 Live projects & websites
+## 📌 Selected repositories
 
 <div align="center">
+
+<a href="https://github.com/0xRech/.rgx">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=0xRech&repo=.rgx&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="RGX repository" />
+</a>
+<a href="https://github.com/0xRech/AliveSpec">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=0xRech&repo=AliveSpec&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9&icon_color=7EE787" alt="AliveSpec repository" />
+</a>
+
+</div>
+
+---
+
+## 🌐 Visit my live projects
+
+<div align="center">
+
+### **Projects are better when you can actually use them.**
 
 [![ThorbenRech](https://img.shields.io/badge/thorbenrech.de-Personal_IT_Command_Center-0D1117?style=for-the-badge&logo=linux&logoColor=58A6FF)](https://thorbenrech.de)
 [![Rech Group](https://img.shields.io/badge/rech--group.de-IT_%26_Digital_Solutions-0D1117?style=for-the-badge&logo=cloudflare&logoColor=F48120)](https://rech-group.de)
@@ -96,16 +120,14 @@ AliveSpec observes known-good runtime behavior and turns it into readable operat
 
 </div>
 
-### What lives there?
-
-| Project | What it is | Live |
-|---|---|:---:|
-| **thorbenrech.de** | Personal IT command center for projects, tools, infrastructure, automation and experiments | [↗](https://thorbenrech.de) |
-| **Rech Group** | Hub for IT help, web projects, automation and digital solutions | [↗](https://rech-group.de) |
-| **TierMap** | Community platform for reporting and finding missing, found and sighted pets | [↗](https://tiermap.de) |
-| **Punktly** | Digital loyalty cards, QR codes, points and rewards for local businesses | [↗](https://punktly.de) |
-| **Huis-Meeuw** | Modern booking and information website for a holiday home in Julianadorp aan Zee | [↗](https://huismeeuw.de) |
-| **RGX Web** | Project home for the RGX archive format | [↗](https://rgx.rech-group.de) |
+| Website | Purpose |
+|---|---|
+| **thorbenrech.de** | Personal IT command center for projects, tools, infrastructure and experiments |
+| **rech-group.de** | Hub for IT help, web projects, automation and digital solutions |
+| **tiermap.de** | Platform for reporting and finding missing, found and sighted pets |
+| **punktly.de** | Digital loyalty cards, QR codes, points and rewards |
+| **huismeeuw.de** | Holiday-home information and booking website |
+| **rgx.rech-group.de** | Project home for the RGX archive format |
 
 ---
 
@@ -144,6 +166,18 @@ Focus            Security · Observability · UX · tooling · process design
 
 ---
 
+## 🐍 Contribution snake
+
+<div align="center">
+
+<img width="96%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/0xRech/0xRech/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+<sub>The snake is generated automatically by GitHub Actions and published to the <code>output</code> branch.</sub>
+
+---
+
 ## 📈 Activity
 
 <div align="center">
@@ -158,8 +192,21 @@ Focus            Security · Observability · UX · tooling · process design
 
 ```yaml
 currently_building:
-  - RGX: archive format, recipient encryption, signatures, benchmarking
-  - AliveSpec: runtime learning, eBPF observation, operational contracts
+  RGX:
+    - archive format
+    - recipient encryption
+    - signatures
+    - benchmarking
+
+  AliveSpec:
+    - runtime learning
+    - eBPF observation
+    - operational contracts
+
+  web:
+    - TierMap
+    - Punktly
+    - Rech Group
 
 always_interested_in:
   - infrastructure
@@ -176,12 +223,15 @@ always_interested_in:
 
 ### `build useful things. understand how they work.`
 
-<sub>Open source experiments, infrastructure ideas and digital projects by <b>0xRech</b>.</sub>
+<sub>Open-source experiments, infrastructure ideas and digital projects by <b>0xRech</b>.</sub>
+
+<br /><br />
+
+[![Explore Projects](https://img.shields.io/badge/EXPLORE_MY_PROJECTS-58A6FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xRech?tab=repositories)
+[![Visit Website](https://img.shields.io/badge/VISIT_MY_WEBSITE-8250DF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://thorbenrech.de)
 
 <br /><br />
 
 <img src="https://komarev.com/ghpvc/?username=0xRech&label=PROFILE+VIEWS&color=58A6FF&style=flat-square" alt="Profile views" />
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:161B22,100:58A6FF&height=100&section=footer" alt="footer" />
 
 </div>
